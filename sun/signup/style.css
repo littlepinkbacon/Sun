@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background: #fff;
+    font-family: 'Roboto';
+    text-decoration: none;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:15%;
+    margin-right: 80%;
+}
+/* Bordered form */
+form {
+    width:100%;
+    padding: 30px;
+    border-radius: 300px 30px 30px 30px;
+    background: #fff;
+    
+}
+#container h1{
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+b{
+    font-family: 'Roboto';  
+    width: 141px;
+    height: 45px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color:#138199;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    border: none;
+    color: #26B3D1;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border-color: #0E748A;
+    width: 529px;
+    height: 99px;
+    border: 5px solid #138199;
+    border-radius: 30px;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    border-radius: 30px;
+    background-color: #0E748A;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 142px;
+    height: 83px;
+
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #26B3D1;
+    border: 3px solid #0E748A;
+    border-radius: 30px;
+}
+.rectangle1{
+    position: absolute;
+    width: 920px;
+    height: 850px;
+    left: 934px;
+    top: 35px;
+    
+    background: linear-gradient(135deg, #0E748A 0%, #26B3D1 100%);
+    border-radius: 300px 30px 30px 30px;    
+}
+.title1{
+    position: absolute;
+    width: 421px;
+    height: 150px;
+    left: 1409px;
+    top: 98px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 128px;
+    line-height: 150px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+.title2{
+    position: absolute;
+    width: 623px;
+    height: 150px;
+    left: 1207px;
+    top: 217px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 128px;
+    line-height: 150px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+}
+.text1{
+    position: absolute;
+    width: 793px;
+    height: 56px;
+    left: 1037px;
+    top: 415px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+.img1{
+    position: absolute;
+    width: 980px;
+    height: 400px;
+    left: 522px;
+    top: 502px;
+    
+    background: url(2robot.png);    
+}
